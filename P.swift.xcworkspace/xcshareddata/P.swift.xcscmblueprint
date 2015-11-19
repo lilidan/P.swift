@@ -1,22 +1,30 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0810F3594D5729EDA4627BE3A5CC7A4366C1F3D8",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0810F3594D5729EDA4627BE3A5CC7A4366C1F3D8" : 0,
     "B141D43A78807E302A086A84B4BECA9271DA3018" : 0,
-    "69AF840D792779EDC1501DFB94242F79649CD44F" : 0,
-    "768F1F9CC867EF28C17472B184F0AF0781227AAE" : 0
+    "768F1F9CC867EF28C17472B184F0AF0781227AAE" : 0,
+    "69AF840D792779EDC1501DFB94242F79649CD44F" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9C87AA23-2830-41DA-B2F3-C2B17077FF6B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0810F3594D5729EDA4627BE3A5CC7A4366C1F3D8" : "P.swift\/",
     "B141D43A78807E302A086A84B4BECA9271DA3018" : "P.swift\/Example\/R.swift\/OptionKit\/",
-    "69AF840D792779EDC1501DFB94242F79649CD44F" : "P.swift\/Example\/R.swift\/Xcode.swift\/",
-    "768F1F9CC867EF28C17472B184F0AF0781227AAE" : "P.swift\/Example\/R.swift\/"
+    "768F1F9CC867EF28C17472B184F0AF0781227AAE" : "P.swift\/Example\/R.swift\/",
+    "69AF840D792779EDC1501DFB94242F79649CD44F" : "P.swift\/Example\/R.swift\/Xcode.swift\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "P.swift",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "P.swift.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lilidan\/P.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0810F3594D5729EDA4627BE3A5CC7A4366C1F3D8"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mac-cain13\/Xcode.swift.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
