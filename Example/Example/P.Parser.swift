@@ -17,7 +17,7 @@ extension String {
 }
 
 extension P{
-    
+        
     class func parseJsonToObject <T:NSObject> (jsonObject:AnyObject,classType:AnyClass) -> T{
         
         let appName = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleName") as! String

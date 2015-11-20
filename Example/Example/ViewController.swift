@@ -12,13 +12,17 @@ class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+
+        // Read json file from local or Internet
         let sourcePath = NSBundle.mainBundle().pathForResource("Index", ofType: "json")
         let str = try! NSString(contentsOfFile: sourcePath!, encoding: NSUTF8StringEncoding) as String
         let jsonObject = try! NSJSONSerialization.JSONObjectWithData(NSData(data: str.dataUsingEncoding(NSUTF8StringEncoding)!), options: NSJSONReadingOptions(rawValue: 0))
         print(jsonObject)
+        
+        // Parse json to instance object
         let index:P.Index = P.parseJsonToObject(jsonObject, classType: P.Index.self)
+        
+        //use it
         models = index.data!.cases
    }
     
