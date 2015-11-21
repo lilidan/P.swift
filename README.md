@@ -41,8 +41,10 @@ if let jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: .
 ## Why use this?
 
 1.**Automatically generate** the classes,no need to code. (Compared with ObjectMapper,JSONHelper)
+
 2.**Compiletime check** and **autocompleted**.(Compared with SwiftyJSON)
-3.Modifiable value and inheritable class.(Compared with SwiftyJSON)
+
+3.Modifiable value and inheritable class.(Compared with SwiftyJSON) 
 
 ## Installation
 
@@ -55,9 +57,12 @@ if let jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: .
 ## Usage
 
 ## TO DO
-1.Handle the conficts caused by variable names.(id,description..)
-2.Support more data types.(Number,Date..)
-3.Avoid duplicate classes in P.generate.swift.
+1.Handle the conficts caused by variable names.(id,description..) 
+
+2.Support more data types.(Number,Date..) 
+
+3.Avoid duplicate classes in P.generate.swift. 
+
 ...
 
 ## License
