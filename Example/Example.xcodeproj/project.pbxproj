@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6358B1641C0073D7008F49E0 /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 6358B1631C0073D7008F49E0 /* Weather.json */; };
 		D63DB0D51BFDE97B00A14078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63DB0D41BFDE97B00A14078 /* AppDelegate.swift */; };
 		D63DB0D71BFDE97B00A14078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63DB0D61BFDE97B00A14078 /* ViewController.swift */; };
 		D63DB0DA1BFDE97B00A14078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63DB0D81BFDE97B00A14078 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		D63DB0DF1BFDE97B00A14078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63DB0DD1BFDE97B00A14078 /* LaunchScreen.storyboard */; };
 		D63DB0EA1BFDE97B00A14078 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63DB0E91BFDE97B00A14078 /* ExampleTests.swift */; };
 		D63DB0F51BFDE97B00A14078 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63DB0F41BFDE97B00A14078 /* ExampleUITests.swift */; };
-		D63DB1351BFDEDCB00A14078 /* Index.json in Resources */ = {isa = PBXBuildFile; fileRef = D63DB1341BFDEDCB00A14078 /* Index.json */; };
 		D63DB22B1BFDFB4500A14078 /* P.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63DB22A1BFDFB4500A14078 /* P.generated.swift */; };
 		D63DB2311BFE000F00A14078 /* P.Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63DB2301BFE000F00A14078 /* P.Parser.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6358B1631C0073D7008F49E0 /* Weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
 		D63DB0D11BFDE97B00A14078 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63DB0D41BFDE97B00A14078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D63DB0D61BFDE97B00A14078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		D63DB0F01BFDE97B00A14078 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63DB0F41BFDE97B00A14078 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		D63DB0F61BFDE97B00A14078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D63DB1341BFDEDCB00A14078 /* Index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Index.json; sourceTree = "<group>"; };
 		D63DB22A1BFDFB4500A14078 /* P.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P.generated.swift; sourceTree = SOURCE_ROOT; };
 		D63DB2301BFE000F00A14078 /* P.Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P.Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,9 +103,9 @@
 		D63DB0D31BFDE97B00A14078 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				6358B1631C0073D7008F49E0 /* Weather.json */,
 				D63DB22A1BFDFB4500A14078 /* P.generated.swift */,
 				D63DB2301BFE000F00A14078 /* P.Parser.swift */,
-				D63DB1341BFDEDCB00A14078 /* Index.json */,
 				D63DB0D41BFDE97B00A14078 /* AppDelegate.swift */,
 				D63DB0D61BFDE97B00A14078 /* ViewController.swift */,
 				D63DB0D81BFDE97B00A14078 /* Main.storyboard */,
@@ -239,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6358B1641C0073D7008F49E0 /* Weather.json in Resources */,
 				D63DB0DF1BFDE97B00A14078 /* LaunchScreen.storyboard in Resources */,
 				D63DB0DC1BFDE97B00A14078 /* Assets.xcassets in Resources */,
-				D63DB1351BFDEDCB00A14078 /* Index.json in Resources */,
 				D63DB0DA1BFDE97B00A14078 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
