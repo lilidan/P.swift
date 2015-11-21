@@ -47,7 +47,7 @@ if let jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: .
 2. In XCode: Click on your project in the file list, choose your target under `TARGETS`, click the `Build Phases` tab and add a `New Run Script Phase` by clicking the little plus icon in the top left
 3. Drag the new `Run Script` phase **above** the `Compile Sources` phase, expand it and paste the following script: `"$SRCROOT/.../pswift" "$SRCROOT"`,replace `...` to make sure the `pswift` file is into that folder
 4. Drag the `P.Parser` file to your project.
-5. Build your project, in Finder you will now see a `P.generated.swift` in the `$SRCROOT`-folder, drag the `R.generated.swift` files into your project and **uncheck** `Copy items if needed`
+5. Build your project, in Finder you will now see a `P.generated.swift` in the `$SRCROOT`-folder, drag the `P.generated.swift` files into your project and **uncheck** `Copy items if needed`
 
 
 ## TO DO
