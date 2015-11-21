@@ -3,6 +3,8 @@ Convert JSON to Object in one line of code.
 
 Current version: 0.1
 
+![](https://github.com/lilidan/P.swift/blob/master/themov.gif)
+
 Currently you do with JSON:
 ```swift
 
@@ -54,7 +56,6 @@ if let jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: .
 4. Drag the `P.Parser` file to your project.
 5. Build your project, in Finder you will now see a `P.generated.swift` in the `$SRCROOT`-folder, drag the `R.generated.swift` files into your project and **uncheck** `Copy items if needed`
 
-## Usage
 
 ## TO DO
 1.Handle the conficts caused by variable names.(id,description..) 
