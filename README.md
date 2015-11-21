@@ -1,5 +1,5 @@
 # P.swift
-Convert JSON to Object in one line of code.
+Convert JSON to Object in one line of code.Inspired by [R.swift](https://github.com/mac-cain13/R.swift).
 
 Current version: 0.1
 
@@ -7,27 +7,21 @@ Current version: 0.1
 
 Currently you do with JSON:
 ```swift
-
 // Example for SwiftyJSON
 if let statusesArray = try? NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments) as? [[String: AnyObject]],
     let user = statusesArray[0]["user"] as? [String: AnyObject],
     let username = user["name"] as? String {
-    // Finally we got the username
+    ...
 }
-
 // Example for ObjectMapper,JSONHelper
 class User: Mappable {
     var username: String?
     var age: Int?
     var weight: Double!
-    var array: [AnyObject]?
-    var dictionary: [String : AnyObject] = [:]
-    var bestFriend: User?                       // Nested User object
-    var friends: [User]?                        // Array of Users
-    var birthday: NSDate?
-
     required init?(_ map: Map) {
-        ...
+        username <- ...
+        age <- ...
+        weight <- ...
     }
 ```
 
@@ -36,7 +30,6 @@ With P.swift it becomes:
 if let jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments) as? [String: AnyObject]{
    let obj:P.Obj = P.parseJsonToObject(jsonObject, classType: P.Obj.self)
    print obj.foo?.bar?
-   obj.foo! = "yoyoyo" 
 }
 ```
 
