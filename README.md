@@ -1,5 +1,5 @@
 # P.swift
-Convert JSON to Object in one line of code.Inspired by [R.swift](https://github.com/mac-cain13/R.swift).
+Convert JSON to Object in one line of code. Inspired by [R.swift](https://github.com/mac-cain13/R.swift).
 
 Current version: 0.1
 
