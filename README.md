@@ -51,7 +51,7 @@ if let jsonObject = try? NSJSONSerialization.JSONObjectWithData(data, options: .
 
 
 ## TO DO
-1.Handle the conficts caused by variable names.(id,description..) 
+1.Handle the conficts caused by variable names.(hash,description..) 
 
 2.Support more data types.(Number,Date..) 
 
