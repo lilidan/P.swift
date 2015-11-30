@@ -35,8 +35,12 @@ extension P{
         
         if let jsonObj = json as? [String:AnyObject]{
             
-            for key in jsonObj.keys{
+            for var key in jsonObj.keys{
                 let value = jsonObj[key]
+                
+                if key == "description"{
+                    key = "description_p"
+                }
                 
                 if value is String || value is [String]{
                     

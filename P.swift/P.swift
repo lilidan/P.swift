@@ -42,10 +42,14 @@ struct JSONVar: CustomStringConvertible {
     let type: JSONType
     let isArray: Bool
     var description: String {
+        var newName = name
+        if newName == "description"{
+            newName = "description_p"
+        }
         if isArray{
-            return "var \(name):[\(type)]?"
+            return "var \(newName):[\(type)]?"
         }else{
-            return "var \(name): \(type)?"
+            return "var \(newName): \(type)?"
         }
     }
 }
