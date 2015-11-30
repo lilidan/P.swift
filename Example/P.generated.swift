@@ -9,11 +9,11 @@ class P:NSObject {
     var description_p: String?
     var rs_status: String?
     
-    class Data:NSObject {
-      var cases:[Cases]?
-      var doctors:[Doctors]?
-      var slide:[Slide]?
-      var tags:[Tags]?
+    class Query:NSObject {
+      var count: String?
+      var created: String?
+      var lang: String?
+      var results: Results?
       
       class Cases:NSObject {
         var comments: String?
@@ -33,24 +33,17 @@ class P:NSObject {
         var title: String? 
         var uid: String?
         
-        class Tags:NSObject {
-          var id: String?
-          var name: String?
+        class Channel:NSObject {
+          var item: Item?
+          
+          class Item:NSObject {
+            var condition: Condition?
+            
+            class Condition:NSObject {
+              var text: String?
+            }
+          }
         }
-      }
-      
-      class Slide:NSObject {
-        var fid: String?
-        var image: String?
-        var nid: String?
-        var title: String?
-        var type: String?
-        var url: String?
-      }
-      
-      class Tags:NSObject {
-        var id: String?
-        var name: String?
       }
     }
   }
